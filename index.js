@@ -1,15 +1,23 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const questions = require('./questions');
+const buildREADMEmd = require('./template');
 
-// TODO: Create an array of questions for user input
-const questions = [];
+async function main() {
+  try {
+      const userData = await inquirer.prompt(questions);
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+      const readme = buildREADMEmd(userData);
+  
+      fs.writeFileSync('./generated-README.md', readme);
+  
+      console.log('File was successfully written.');
+      // await open('./index.html');
+  
+      // console.log('Check your browser!');
+  } catch (error) {
+      console.log(error);
+  }
+}
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+main();
