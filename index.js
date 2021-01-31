@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const questions = require('./questions');
-const buildREADMEmd = require('./template');
+const questions = require('./questions.js');
+const buildREADMEmd = require('./template.js');
 
 async function main() {
   try {
