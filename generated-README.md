@@ -1,9 +1,7 @@
-
-# Testing
+# title
 
 ## Description 
-
-I'm only testing the process. 
+description
 
 The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
 
@@ -28,14 +26,14 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-Install inquirer npm before testing this.
+installations
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 
 ## Usage 
 
-Testing the application
+defining how to use this application
 
 Provide instructions and examples for use. Include screenshots as needed. 
 
@@ -45,19 +43,17 @@ To add a screenshot, create an "assets/images" folder in your repository and upl
 
 ## License
 
-MIT
-
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+License ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Contributing
 
-fork a copy and test it
+contributing information not provided
 
 If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
 
 ## Tests
 
-Answer all the questions and verify if your answers are the same on the generated md file
+testing instructions
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
@@ -65,9 +61,9 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 If you have any questions, feel free to contact me and listed below are my contact informations. 
 
-GitHub profile: code-monkey713
+GitHub profile: github.com
 
-Email: tony@gmail.com
+Email: email.com
 
 
 

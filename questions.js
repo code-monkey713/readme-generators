@@ -20,9 +20,10 @@ const questions = [
     name: 'usage',
   },
   {
-    type: 'input',
+    type: 'list',
     message: 'What is the license for this application?',
     name: 'license',
+    choices: ['1 - MIT', '2 - ISC', '3 - Apache', '4 - GNU GPLv3', '5 - No License']
   },
   {
     type: 'input',
@@ -45,5 +46,33 @@ const questions = [
     name: 'email',
   },
 ];
+
+const license = [
+  {
+    id: 1,
+    type: 'MIT',
+    color: 'green'
+  },
+  {
+    id: 2,
+    type: 'ISC',
+    color: 'green'
+  },
+  {
+    id: 3,
+    type: 'Apache',
+    color: 'blue'
+  },
+  {
+    id: 4,
+    type: 'GNU GPLv3',
+    color: 'blue'
+  },
+  {
+    id: 5,
+    type: 'No License',
+    color: 'lightgrey'
+  },
+]
 
 module.exports = questions;

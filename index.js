@@ -12,9 +12,7 @@ async function main() {
       fs.writeFileSync('./generated-README.md', readme);
   
       console.log('File was successfully written.');
-      // await open('./index.html');
-  
-      // console.log('Check your browser!');
+
   } catch (error) {
       console.log(error);
   }
