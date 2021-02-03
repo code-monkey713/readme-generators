@@ -1,5 +1,11 @@
 const questions = [
   {
+    type: 'list',
+    message: 'Choose a license for this application.',
+    name: 'license',
+    choices: ['1 - MIT', '2 - ISC', '3 - Apache', '4 - GNU GPLv3', '5 - No License']
+  },
+  {
     type: 'input',
     message: 'What is title of the project?',
     name: 'title',
@@ -18,12 +24,6 @@ const questions = [
     type: 'input',
     message: 'Define how to use the application.',
     name: 'usage',
-  },
-  {
-    type: 'list',
-    message: 'What is the license for this application?',
-    name: 'license',
-    choices: ['1 - MIT', '2 - ISC', '3 - Apache', '4 - GNU GPLv3', '5 - No License']
   },
   {
     type: 'input',
@@ -51,27 +51,32 @@ const license = [
   {
     id: 1,
     type: 'MIT',
-    color: 'green'
+    color: 'green',
+    info: 'More information about the license goes here!'
   },
   {
     id: 2,
     type: 'ISC',
-    color: 'green'
+    color: 'green',
+    info: 'More information about the license goes here!'
   },
   {
     id: 3,
     type: 'Apache',
-    color: 'blue'
+    color: 'blue',
+    info: 'More information about the license goes here!'
   },
   {
     id: 4,
     type: 'GNU GPLv3',
-    color: 'blue'
+    color: 'blue',
+    info: 'More information about the license goes here!'
   },
   {
     id: 5,
     type: 'No License',
-    color: 'lightgrey'
+    color: 'lightgrey',
+    info: 'More information about the license goes here!'
   },
 ]
 
