@@ -1,6 +1,6 @@
-const buildREADMEmd = (data) => `# ${data.title}
+const buildREADMEmd = (data, color) => `# ${data.title}
 
-License: ![License](https://img.shields.io/badge/license-${data.license}-green)
+License: ![License](https://img.shields.io/badge/license-${data.license}-${color})
 
 ## Description 
 

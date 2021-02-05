@@ -1,9 +1,9 @@
 const questions = [
   {
     type: 'list',
-    message: 'Choose a license for this application.',
+    message: 'Choose a license for this project.',
     name: 'license',
-    choices: ['1 - MIT', '2 - ISC', '3 - Apache', '4 - GNU GPLv3', '5 - No License']
+    choices: ['MIT', 'ISC', 'Apache', 'GNU GPLv3', 'No License']
   },
   {
     type: 'input',
@@ -46,38 +46,5 @@ const questions = [
     name: 'email',
   },
 ];
-
-const license = [
-  {
-    id: 1,
-    type: 'MIT',
-    color: 'green',
-    info: 'More information about the license goes here!'
-  },
-  {
-    id: 2,
-    type: 'ISC',
-    color: 'green',
-    info: 'More information about the license goes here!'
-  },
-  {
-    id: 3,
-    type: 'Apache',
-    color: 'blue',
-    info: 'More information about the license goes here!'
-  },
-  {
-    id: 4,
-    type: 'GNU GPLv3',
-    color: 'blue',
-    info: 'More information about the license goes here!'
-  },
-  {
-    id: 5,
-    type: 'No License',
-    color: 'lightgrey',
-    info: 'More information about the license goes here!'
-  },
-]
 
 module.exports = questions;

@@ -1,7 +1,10 @@
-# title
+# Testing Readme File
+
+License: ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description 
-description
+
+This is a short description of the project.
 
 The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
 
@@ -26,34 +29,34 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-installations
+List the instructions for installation of the project. 
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 
 ## Usage 
 
-defining how to use this application
+Use this application to create a sample  READMEfile
 
 Provide instructions and examples for use. Include screenshots as needed. 
 
 To add a screenshot, create an "assets/images" folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
-
 ## License
 
-License ![License](https://img.shields.io/badge/license-MIT-green)
+MIT
+
+The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
 
 ## Contributing
 
-contributing information not provided
+Nothing to contribute right now
 
 If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
 
 ## Tests
 
-testing instructions
+I have not created the testing instructions for this project yet. 
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
@@ -61,23 +64,7 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 If you have any questions, feel free to contact me and listed below are my contact informations. 
 
-GitHub profile: github.com
+GitHub profile: code-monkey713
 
-Email: email.com
+Email: tony.tran713@outlook.com
 
-
-
-
----
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.

@@ -5,16 +5,26 @@ const buildREADMEmd = require('./template.js');
 
 async function main() {
   try {
-      const userData = await inquirer.prompt(questions);
-
-      const readme = buildREADMEmd(userData);
-  
-      fs.writeFileSync('./generated-README.md', readme);
-  
-      console.log('File was successfully written.');
-
+    const userData = await inquirer.prompt(questions);
+    let color;
+    switch(userData.license){
+      case 'MIT':
+      case 'ISC':
+        color = 'green'
+        break;
+      case 'Apache':
+      case 'GNU GPLv3':
+        color = 'blue';
+        break;
+      default:
+        color = 'lightgrey';
+        break;
+    }
+    const readme = buildREADMEmd(userData, color);
+    fs.writeFileSync('./generated-README.md', readme);
+    console.log('File was successfully written.');
   } catch (error) {
-      console.log(error);
+    console.log(error);
   }
 }
 
