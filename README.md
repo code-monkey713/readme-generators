@@ -4,7 +4,7 @@ License: ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description 
 
-This is a nodeJS application to generate a good README.md so developers can spend more time working on their project.
+This is a nodeJS application to generate a good README.md so developers can spend more time working on their project. This application was built using NodeJS and Inquirer package for the prompt inputs. 
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ https://drive.google.com/file/d/1Xr8zw1MHKQioMfNzPQxz9_32Q7-f9NT-/view?usp=shari
 
 ## License
 
-MIT
+This project is licensed under the terms of the MIT license.
 
 ## Contributing
 
