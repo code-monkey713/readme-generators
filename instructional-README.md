@@ -5,8 +5,6 @@ Because this application won’t be deployed, you’ll also need to provide a li
 ```md
 WHEN I choose a license for my application from a list of options
 THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 ```
 ## Getting Started
 
@@ -15,10 +13,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 * Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 
 * Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
 
 ### Deliverables: 20%
 
