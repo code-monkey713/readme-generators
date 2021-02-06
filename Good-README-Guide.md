@@ -1,9 +1,3 @@
-# ${title}
-
-## Description 
-License: ![license](https://img.shields.io/badge/license-MIT-green)
-
-${description}
 
 The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
 
