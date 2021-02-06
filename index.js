@@ -13,7 +13,7 @@ async function main() {
         color = 'green'
         break;
       case 'Apache':
-      case 'GNU GPLv3':
+      case 'GNU':
         color = 'blue';
         break;
       default:
